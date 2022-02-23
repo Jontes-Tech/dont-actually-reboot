@@ -1,1 +1,1 @@
-wget https://bit.ly/install-dar; bash dont-actually-reboot.sh
+wget https://bit.ly/install-dar && bash dont-actually-reboot.sh
