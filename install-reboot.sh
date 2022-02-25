@@ -2,6 +2,7 @@
 mkdir ~/.config-dar
 cd ~/.config-dar
 wget https://raw.githubusercontent.com/Jontes-Tech/dont-actually-reboot/main/dont-actually-reboot.sh
-mv dont-actually-reboot.sh rebot
+sudo mv /usr/bin/reboot /usr/bin/actually-reboot
+mv dont-actually-reboot.sh reboot
 chmod +x $HOME/.config-dar/*
-sudo cp rebot /usr/bin/
+sudo cp reboot /usr/bin/
