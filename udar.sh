@@ -7,7 +7,7 @@ cat ~/.config-dar/newestversion.txt
 while true; do
     read -p "Do you want to upgrade? y/n " yn
     case $yn in
-        [Yy]* ) bash -c "$(curl -fsSL https://go.jontes.page/dar.sh)";;
+        [Yy]* ) bash -c "$(curl -fsSL https://go.jontes.page/dar.sh)"; break;;
         [Nn]* ) break;;
         * ) echo "Please answer y or n";;
     esac
