@@ -2,7 +2,7 @@ while true; do
     read -p "Do you wish to check for updates of this software? y or n " yn
     case $yn in
         [Yy]* ) bash -c "$(curl -fsSL https://go.jontes.page/udar.sh)";;
-        [Nn]* ) noupdate=1
+        [Nn]* ) break;;
         * ) echo "Please answer y or n";;
     esac
 done
