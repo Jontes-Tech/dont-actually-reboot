@@ -6,6 +6,9 @@ while true; do
         * ) echo "Please answer y or n";;
     esac
 done
+echo "---"
+echo "Now comes the big question"
+echo "---"
 while true; do
     read -p "Do you wish to reboot?! y or n " yn
     case $yn in
