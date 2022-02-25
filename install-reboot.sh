@@ -5,4 +5,4 @@ wget https://raw.githubusercontent.com/Jontes-Tech/dont-actually-reboot/main/don
 sudo mv /usr/sbin/reboot /usr/sbin/actually-reboot
 mv dont-actually-reboot.sh reboot
 chmod +x $HOME/.config-dar/*
-sudo cp reboot /usr/bin/
+sudo cp reboot /usr/sbin/
