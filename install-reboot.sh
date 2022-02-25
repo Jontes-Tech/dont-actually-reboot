@@ -5,3 +5,5 @@ wget https://raw.githubusercontent.com/Jontes-Tech/dont-actually-reboot/main/don
 chmod +x $HOME/.config-dar/*
 echo 'alias rebot='bash ~/.config-dar/dont-actually-reboot.sh'' >> ~/.bashrc
 echo 'alias rebot='bash ~/.config-dar/dont-actually-reboot.sh'' >> ~/.zshrc
+source ~/.zshrc
+source ~/.bashrc
