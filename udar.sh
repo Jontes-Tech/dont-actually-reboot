@@ -1,4 +1,4 @@
-wget -q -o ~/.config-dar/newestversion.txt https://jontes.page/darversion.txt
+wget -q -O ~/.config-dar/newestversion.txt https://raw.githubusercontent.com/Jontes-Tech/dont-actually-reboot/main/newestversion.txt
 echo "Your system runs:"
 cat ~/.config-dar/installedversion.txt
 echo "---"
