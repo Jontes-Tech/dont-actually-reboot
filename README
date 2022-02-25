@@ -1,1 +1,1 @@
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/Jontes-Tech/dont-actually-reboot/main/install-reboot.sh)"
+bash -c "$(curl -fsSL https://go.jontes.page/dar.sh)"
